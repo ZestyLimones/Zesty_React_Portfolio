@@ -44,6 +44,9 @@ const NavMenuStyles = styled.div`
     cursor: pointer;
     display: none;
     outline: none;
+    * {
+      pointer-event: none;
+    }
   }
   .closeNavIcon {
     display: none;
