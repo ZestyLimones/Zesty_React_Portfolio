@@ -6,16 +6,16 @@ export default function NaveBar() {
     <div>
       <ul>
         <li>
-          <NavLink></NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink></NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink></NavLink>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
-          <NavLink></NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </div>
