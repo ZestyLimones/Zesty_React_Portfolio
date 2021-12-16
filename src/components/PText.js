@@ -11,10 +11,10 @@ const PStyles = styled.div`
   }
 `;
 
-export default function pText(props) {
+export default function pText({ children }) {
   return (
     <PStyles>
-      <p>{props.children}</p>
+      <p>{children}</p>
     </PStyles>
   );
 }
