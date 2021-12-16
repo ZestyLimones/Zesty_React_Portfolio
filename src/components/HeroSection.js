@@ -14,7 +14,7 @@ export default function HeroSection() {
           <img src={HeroImg} alt="Micheal Limones" />
         </div>
         <div className="hero__info">
-          <PText />
+          <PText>this is my new text</PText>
         </div>
       </div>
     </div>
