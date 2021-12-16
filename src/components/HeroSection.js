@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImg from '../assets/images/hero_img.JPEG';
+import Button from './Button';
 import PText from './PText';
 
 export default function HeroSection() {
@@ -15,6 +16,7 @@ export default function HeroSection() {
         </div>
         <div className="hero__info">
           <PText>this is my new text</PText>
+          <Button btnLink="./projects" btnText="see my works" outline={false} />
         </div>
       </div>
     </div>
