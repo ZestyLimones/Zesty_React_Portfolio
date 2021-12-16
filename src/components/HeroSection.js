@@ -1,6 +1,8 @@
 import React from 'react';
+import HeroImg from '../assets/images/hero_img.JPEG';
+import PText from './PText';
 
-export default function HomeSection() {
+export default function HeroSection() {
   return (
     <div>
       <div className="container">
@@ -9,7 +11,10 @@ export default function HomeSection() {
           <span>Micheal</span>
         </h1>
         <div className="hero__img">
-          <img src="" alt="" />
+          <img src={HeroImg} alt="Micheal Limones" />
+        </div>
+        <div className="hero__info">
+          <PText />
         </div>
       </div>
     </div>
