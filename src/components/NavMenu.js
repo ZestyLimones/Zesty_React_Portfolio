@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default function NaveBar() {
+export default function NavMenu() {
   return (
     <div>
       <ul>
