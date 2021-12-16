@@ -1,10 +1,11 @@
 import React from 'react';
+import NaveBar from './components/NavBar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export default function App() {
   return (
-    <>
-      <h1>Welcome to react portfolio Project</h1>
-      <h3>-Micheal Limones</h3>
-    </>
+    <Router>
+      <NaveBar />
+    </Router>
   );
 }
