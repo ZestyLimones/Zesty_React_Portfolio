@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero_img.JPEG';
+import HeroImg from '../assets/images/hero_img.jpg';
 import Button from './Button';
 import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
@@ -154,7 +154,7 @@ export default function HeroSection() {
             <span className="hero__name">Micheal</span>
           </h1>
           <div className="hero__img">
-            <img src={HeroImg} alt="" />
+            <img src={HeroImg} alt="Micheal cycling" />
           </div>
           <div className="hero__info">
             <PText>

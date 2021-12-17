@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/hero_img.JPEG';
+import AboutImg from '../assets/images/mike.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -21,6 +21,7 @@ const AboutPageStyles = styled.div`
     flex: 2;
     img {
       border: 2px solid var(--blue-1);
+      border-radius: 12px;
     }
   }
   .about__subheading {

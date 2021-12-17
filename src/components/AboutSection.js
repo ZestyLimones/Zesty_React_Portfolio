@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
 import Button from './Button';
-import aboutImage from '../assets/images/hero_img.JPEG';
+import aboutImage from '../assets/images/mike.jpg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -30,6 +30,9 @@ const AboutSectionStyles = styled.div`
     justify-content: flex-start;
     gap: 2rem;
     margin-top: 2rem;
+  }
+  img {
+    border-radius: 12px;
   }
   @media only screen and (max-width: 950px) {
     .aboutSection__left {

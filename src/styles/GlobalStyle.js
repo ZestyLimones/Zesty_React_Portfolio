@@ -29,6 +29,9 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
     object-fit: cover;
   }
+  p {
+    line-height:2rem;
+  }
   button{
     outline: none
   }
