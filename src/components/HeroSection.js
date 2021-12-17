@@ -28,6 +28,7 @@ const HeroStyles = styled.div`
     .hero__name {
       font-size: 7rem;
       color: var(--white);
+      text-shadow: 2px 2px var(--deep-dark);
     }
   }
   .hero__img {
@@ -43,6 +44,10 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
+    p {
+      color: var(--white);
+      text-shadow: 2px 2px var(--black);
+    }
   }
   .hero__social,
   .hero__scrollDown {
@@ -52,6 +57,7 @@ const HeroStyles = styled.div`
     position: absolute;
     bottom: 20px;
     width: 50px;
+    text-shadow: 2px 2px var(--deep-dark);
   }
   .hero__social {
     left: 50px;
@@ -151,7 +157,7 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Micheal</span>
+            <span className="hero__name">Micheal Limones</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="Micheal cycling" />
@@ -159,11 +165,11 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               Full Stack web developer skilled in HTML5, CSS3, JavaScript,
-              jQuary, APIs, Node.js, and GitHub. Thrives on the challenge of
+              React.js, APIs, Node.js, and GitHub. Thrives on the challenge of
               learning new technologies and the satisfaction of solving
-              difficult problems with creative solutions. I’m currently enrolled
-              in a Full Stack bootcamp through the University of Denver to
-              expand my skills and move into a Web Developer role.
+              difficult problems with creative solutions. Received a Full Stack
+              Web Developer certificate from the University of Denver Bootcamps.
+              I continue to perfect my skills and expand my knowledge.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -176,7 +182,25 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://github.com/ZestyLimones"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GH
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/micheal-limones/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LI
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/zestylimones"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -185,29 +209,11 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.instagram.com/psychocyclist00/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LI
                   </a>
                 </li>
               </ul>

@@ -83,12 +83,12 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Full Stack web developer skilled in HTML5, CSS3, JavaScript, jQuary,
-            APIs, Node.js, and GitHub. Thrives on the challenge of learning new
-            technologies and the satisfaction of solving difficult problems with
-            creative solutions. I’m currently enrolled in a Full Stack bootcamp
-            through the University of Denver to expand my skills and move into a
-            Web Developer role.
+            A background in Benefits Administration and Human Resources gives me
+            a customer-focused mentality and the ability to keep a project
+            aligned with the needs of the end-user. I now apply this process to
+            my work as a developer by researching challenging issues that affect
+            usability and accessibility and effectively collaborating with my
+            team.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />

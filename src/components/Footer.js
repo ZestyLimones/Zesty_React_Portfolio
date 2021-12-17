@@ -44,8 +44,9 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Micheal Limones</h1>
           <PText>
-            Thow in some more text about me here for my footer, adding mre text
-            to take up mre space
+            When I’m not coding, you can usually find me on the trails preparing
+            for my next charity bike ride event. Feel free to ask me about The
+            Empire State Ride. 😊 🚴
           </PText>
         </div>
         <div className="footer__col2">

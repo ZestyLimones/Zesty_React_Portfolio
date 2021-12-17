@@ -36,6 +36,7 @@ const AboutPageStyles = styled.div`
   .about__heading {
     font-size: 3.6rem;
     margin-bottom: 3rem;
+    text-shadow: 1px 1px var(--white);
   }
   .about__info {
     margin-bottom: 4rem;
@@ -52,6 +53,7 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
+    text-shadow: 1px 1px var(--white);
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
@@ -83,20 +85,27 @@ export default function About() {
             <h2 className="about__heading">Web Developer</h2>
             <div className="about__info">
               <PText>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda soluta alias consectetur ea sit ad beatae repellendus!
-                Dicta esse non natus, quasi aliquam vitae? Iste, mollitia.
-                Tempora aut ea nulla?
+                Full Stack web developer skilled in HTML5, CSS3, JavaScript,
+                React.js, APIs, Node.js, and GitHub. Thrives on the challenge of
+                learning new technologies and the satisfaction of solving
+                difficult problems with creative solutions. Received a Full
+                Stack Web Developer certificate from the University of Denver
+                Bootcamps. I continue to perfect my skills and expand my
+                knowledge.
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus doloribus ratione ipsum commodi nam praesentium
-                unde quis, eum, iste exercitationem consequatur reiciendis velit
-                aliquid vero atque vitae veritatis aut porro!
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                praesentium, nam laboriosam animi quo adipisci, ad iusto qui
-                provident recusandae sint ab autem veritatis necessitatibus est
-                facere! Eveniet, distinctio asperiores.
+                Recently completed a group project working with two other
+                individuals to create a social media application for Pets! This
+                project was a lot of fun to put together. A user can upload
+                pictures to their profile and can interact with other users by
+                following them or adding comments to their photos.
+                <br />
+                <br />A background in Benefits Administration and Human
+                Resources gives me a customer-focused mentality and the ability
+                to keep a project aligned with the needs of the end-user. I now
+                apply this process to my work as a developer by researching
+                challenging issues that affect usability and accessibility and
+                effectively collaborating with my team.
               </PText>
             </div>
             <Button

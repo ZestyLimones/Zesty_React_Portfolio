@@ -11,6 +11,7 @@ const ButtonStyle = styled.div`
     padding: 0.7em 2em;
     border: 2px solid var(--blue-1);
     border-radius: 8px;
+    box-shadow: 2px 2px var(--white);
     display: inline-block;
     color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
   }
