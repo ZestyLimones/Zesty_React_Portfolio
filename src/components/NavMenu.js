@@ -26,10 +26,10 @@ const NavMenuStyles = styled.div`
     }
     a {
       display: inline-block;
-      font-family: 'RobotoMono Regular';
+      font-family: 'Quicksand';
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--gray-1);
+      color: var(--purple-1);
       outline: none;
     }
     .active {

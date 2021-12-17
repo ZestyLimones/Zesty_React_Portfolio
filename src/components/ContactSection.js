@@ -19,7 +19,7 @@ const ContactSectionStyles = styled.div`
     content: '';
     width: 2px;
     height: 50%;
-    background-color: var(--gray-1);
+    background-color: var(--purple-1);
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);

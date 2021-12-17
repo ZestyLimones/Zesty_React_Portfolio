@@ -15,7 +15,7 @@ const ContactFormStyles = styled.form`
     width: 100%;
     font-size: 2rem;
     padding: 1.2rem;
-    color: var(--gray-1);
+    color: var(--purple-1);
     background-color: var(--deep-dark);
     outline: none;
     border: none;
@@ -27,7 +27,7 @@ const ContactFormStyles = styled.form`
     resize: vertical;
   }
   button {
-    background-color: var(--gray-1);
+    background-color: var(--purple-1);
     color: var(--black);
     font-size: 2rem;
     display: inline-block;

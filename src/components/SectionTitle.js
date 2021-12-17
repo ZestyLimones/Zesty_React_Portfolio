@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SectionTitleStyle = styled.div`
   text-align: center;
   p {
-    font-family: 'RobotoMono Regular';
+    font-family: 'Quicksand';
     font-size: 2rem;
   }
   h2 {

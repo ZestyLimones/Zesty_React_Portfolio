@@ -1,12 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
-import RobotoMonoRegular from '../assets/fonts/RobotoMono-Regular.ttf';
 import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
+import Quicksand from '../assets/fonts/Quicksand-VariableFont_wght.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
-    font-family: 'RobotoMono Regular';
-    src: url(${RobotoMonoRegular});
+    font-family: 'Quicksand';
+    src: url(${Quicksand});
     font-style: normal;
   }
   @font-face {
@@ -20,12 +20,12 @@ const Typography = createGlobalStyle`
     font-style: normal;
   }
   html{
-    font-family: 'RobotoMono Regular';
-    color: var(--gray-1);
+    font-family: 'Quicksand';
+    color: var(--purple-1);
   }
   *{
-    font-family: 'RobotoMono Regular';
-    color: var(--gray-1);
+    font-family: 'Quicksand';
+    color: var(--purple-1);
   }
   h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat SemiBold'

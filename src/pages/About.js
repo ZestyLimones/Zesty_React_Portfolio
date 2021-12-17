@@ -20,7 +20,7 @@ const AboutPageStyles = styled.div`
   .right {
     flex: 2;
     img {
-      border: 2px solid var(--gray-1);
+      border: 2px solid var(--purple-1);
     }
   }
   .about__subheading {

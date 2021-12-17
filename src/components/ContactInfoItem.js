@@ -13,7 +13,7 @@ const ContactItemStyles = styled.div`
   margin-bottom: 2rem;
   .icon {
     color: var(--white);
-    background-color: var(--gray-2);
+    background-color: var(--purple-2);
     padding: 1.3rem;
     display: flex;
     align-items: center;

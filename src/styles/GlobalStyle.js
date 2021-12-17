@@ -7,16 +7,16 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
-    --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
-    --gray-2: #363636;
+    --dark-bg: #000033;
+    --purple-1: #8c8cd9;
+    --deep-dark: #1f004d;
+    --purple-2: #884dff;
     --white : white;
     --black: black;
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto Mono';
+    font-family: 'Quicksand';
     background-color: var(--dark-bg);
   }
   ul,li{
@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
   [data-scrollbar] {
     height: 100vh;
     overflow: hidden;
-    background-color: var(--gray-1);
+    background-color: var(--purple-1);
     .scroll-content {
       background-color: var(--dark-bg);
     }
@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
       z-index: 101;
       background: var(--deep-dark);
       .scrollbar-thumb-y {
-        background: var(--gray-1);
+        background: var(--purple-1);
       }
     }
   }
