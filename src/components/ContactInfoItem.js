@@ -1,9 +1,32 @@
 import React from 'react';
+import { MdPlace } from 'react-icons/md';
+import styled from 'styled-components';
+import PText from './PText';
 
-export default function ContactInfoItem() {
+const ContactItemStyles = styled.div`
+  padding: 2rem;
+  background-color: var(--deep-dark);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  .icon {
+    color: var(--white);
+    background-color: var(--gray-2);
+  }
+`;
+
+export default function ContactInfoItem({
+  icon = <MdPlace />,
+  text = 'this is info',
+}) {
   return (
-    <div>
-      <h1>this is from contact info itme</h1>
-    </div>
+    <ContactItemStyles>
+      <div className="icon">{icon}</div>
+      <div className="info">
+        <PText>{text}</PText>
+      </div>
+    </ContactItemStyles>
   );
 }
