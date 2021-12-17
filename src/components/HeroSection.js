@@ -55,6 +55,9 @@ const HeroStyles = styled.div`
   }
   .hero__scrollDown {
     right: 50px;
+    img {
+      max-height: 70px;
+    }
   }
   .hero__social__indicator,
   .hero__scrollDown {
@@ -72,11 +75,6 @@ const HeroStyles = styled.div`
       object-fit: contain;
     }
   }
-  .hero__scrollDown {
-    img {
-      max-height: 70px;
-    }
-  }
   .hero__social__text {
     ul {
       li {
@@ -84,7 +82,7 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
+          transform: rotate(90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -149,44 +147,51 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello this is</span>
+            <span>Hello, This is</span>
             <span className="hero__name">Micheal</span>
           </h1>
           <div className="hero__img">
-            <img src={HeroImg} alt="Micheal Limones" />
+            <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>I am a web developer! Hore me and give me money!</PText>
-            <Button btnLink="./projects" btnText="see my works" />
+            <PText>
+              Full Stack web developer skilled in HTML5, CSS3, JavaScript,
+              jQuary, APIs, Node.js, and GitHub. Thrives on the challenge of
+              learning new technologies and the satisfaction of solving
+              difficult problems with creative solutions. I’m currently enrolled
+              in a Full Stack bootcamp through the University of Denver to
+              expand my skills and move into a Web Developer role.
+            </PText>
+            <Button btnText="see my works" btnLink="/projects" />
           </div>
-          <div className="hero__socials">
+          <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
-              <img src={SocialMediaArrow} alt="social media arrow" />
+              <img src={SocialMediaArrow} alt="icon" />
             </div>
             <div className="hero__social__text">
               <ul>
                 <li>
                   <a
-                    href="https://github.com/ZestyLimones"
+                    href="http://facebook.com/webcifar"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GH
+                    FB
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/ZestyLimones"
+                    href="http://twitter.com/webcifar"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    TW
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/ZestyLimones"
+                    href="http://isntagram.com/web_cifar"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -195,19 +200,19 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/ZestyLimones"
+                    href="http://webcifar.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    LI
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="hero__scrollDown">
-              <p>Scroll</p>
-              <img src={ScrollDownArrow} alt="scroll arrow" />
-            </div>
+          </div>
+          <div className="hero__scrollDown">
+            <p>Scroll</p>
+            <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
           </div>
         </div>
       </div>
