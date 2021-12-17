@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
