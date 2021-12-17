@@ -16,7 +16,6 @@ const GlobalStyles = createGlobalStyle`
   }
   html{
     font-size: 10px;
-    font-family: 'Quicksand';
     background-color: var(--dark-bg);
   }
   ul,li{

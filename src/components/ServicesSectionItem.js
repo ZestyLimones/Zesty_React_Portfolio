@@ -12,7 +12,6 @@ const ItemStyles = styled.div`
   }
   .servicesItem__title {
     font-size: 2.5rem;
-    font-family: 'NotoSansDisplay';
   }
   .para {
     margin-top: 2rem;

@@ -26,7 +26,6 @@ const NavMenuStyles = styled.div`
     }
     a {
       display: inline-block;
-      font-family: 'Quicksand';
       padding: 1rem 2rem;
       font-size: 2rem;
       color: var(--blue-1);

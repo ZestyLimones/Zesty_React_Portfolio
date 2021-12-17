@@ -26,7 +26,6 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Quicksand';
       font-size: 7rem;
       color: var(--white);
     }
@@ -37,6 +36,10 @@ const HeroStyles = styled.div`
     height: 600px;
     margin: 0 auto;
     border: 2px solid var(--blue-1);
+    border-radius: 12px;
+    img {
+      border-radius: 12px;
+    }
   }
   .hero__info {
     margin-top: -18rem;
