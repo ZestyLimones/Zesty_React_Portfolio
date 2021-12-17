@@ -1,5 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+const ColStyles = styled.div`
+  .heading {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  a {
+    font-size: 1.8rem;
+  }
+`;
 
 export default function FooterCol({
   heading = 'col heading',
@@ -17,7 +31,7 @@ export default function FooterCol({
   ],
 }) {
   return (
-    <div>
+    <ColStyles>
       <h2 className="heading">{heading}</h2>
       <ul>
         {links.map((item, index) => (
@@ -32,6 +46,6 @@ export default function FooterCol({
           </li>
         ))}
       </ul>
-    </div>
+    </ColStyles>
   );
 }

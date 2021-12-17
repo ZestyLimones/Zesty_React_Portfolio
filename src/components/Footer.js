@@ -24,7 +24,7 @@ const FooterStyles = styled.div`
   }
   .copyright {
     background-color: var(--dark-bg);
-    text-align: left;
+    text-align: center;
     padding: 1rem 0;
     margin-top: 5rem;
     .para {
@@ -64,13 +64,66 @@ export default function Footer() {
           </PText>
         </div>
         <div className="footer__col2">
-          <FooterCol />
+          <FooterCol
+            heading="Important Links"
+            links={[
+              {
+                title: 'Home',
+                path: '/',
+                type: 'Link',
+              },
+              {
+                title: 'About',
+                path: '/about',
+                type: 'Link',
+              },
+              {
+                title: 'Projects',
+                path: '/projects',
+                type: 'Link',
+              },
+              {
+                title: 'Contact',
+                path: '/contact',
+                type: 'Link',
+              },
+            ]}
+          />
         </div>
         <div className="footer__col3">
-          <FooterCol />
+          <FooterCol
+            heading="Contact Info"
+            links={[
+              {
+                title: 'micheal@zestylimones.com',
+                path: 'mailto:micheal@zestylimones.com',
+              },
+            ]}
+          />
         </div>
         <div className="footer__col4">
-          <FooterCol />
+          <FooterCol
+            heading="social Links"
+            links={[
+              {
+                title: 'GitHub',
+                path: 'https://github.com/ZestyLimones',
+              },
+              {
+                title: 'LinkedIn',
+                path: 'https://github.com/ZestyLimones',
+              },
+              {
+                title: 'Instagram',
+                path: 'https://github.com/ZestyLimones',
+              },
+            ]}
+          />
+        </div>
+      </div>
+      <div className="copyright">
+        <div className="container">
+          <PText>© 2021 - Zesty Limones</PText>
         </div>
       </div>
     </FooterStyles>
