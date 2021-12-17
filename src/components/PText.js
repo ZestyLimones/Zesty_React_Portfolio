@@ -13,7 +13,7 @@ const PStyles = styled.div`
 
 export default function pText({ children }) {
   return (
-    <PStyles>
+    <PStyles className="para">
       <p>{children}</p>
     </PStyles>
   );

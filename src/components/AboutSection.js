@@ -5,6 +5,33 @@ import PText from './PText';
 import Button from './Button';
 import aboutImage from '../assets/images/hero_img.JPEG';
 
+const AboutSectionStyles = styled.div`
+  padding: 10rem 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .aboutSection__left,
+  .aboutSection__right {
+    flex: 1;
+  }
+  .section-title {
+    text-align: left;
+  }
+  .para {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  .aboutSection__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+`;
 
 export default function AboutSection() {
   return (
@@ -12,7 +39,6 @@ export default function AboutSection() {
       <div className="container">
         <div className="aboutSection__left">
           <SectionTitle
-            className="section-title"
             subheading="Let me introduce myself"
             heading="About Me"
           />
@@ -26,7 +52,7 @@ export default function AboutSection() {
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />
-            <Button btnLink="/about" btnText="Read More" />
+            <Button btnLink="/about" btnText="Read More" outline />
           </div>
         </div>
         <div className="aboutSection__right">
