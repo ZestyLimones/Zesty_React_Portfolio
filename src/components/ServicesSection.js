@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { MdDesktopMac, MdCode, MdPerson } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
-import ServiesSectionItem from './ServicesSectionItem';
+import ServicesSectionItem from './ServicesSectionItem';
 
 const ServicesItemStyles = styled.div`
   padding: 10rem 0;
@@ -28,9 +29,21 @@ export default function ServicesSection() {
       <div className="container">
         <SectionTitle heading="Services" subheading="what I can do for you:" />
         <div className="services__allItems">
-          <ServiesSectionItem />
-          <ServiesSectionItem />
-          <ServiesSectionItem />
+          <ServicesSectionItem
+            icon={<MdDesktopMac />}
+            title="web design"
+            desc="I do ui/ux design for the website that helps website to get a unique look."
+          />
+          <ServicesSectionItem
+            icon={<MdCode />}
+            title="web dev"
+            desc="I also develop the websites. I create high performance website with blazing fast speed."
+          />
+          <ServicesSectionItem
+            icon={<MdPerson />}
+            title="Client support"
+            desc="talk about my people skills "
+          />
         </div>
       </div>
     </ServicesItemStyles>
