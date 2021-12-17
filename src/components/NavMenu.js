@@ -29,7 +29,7 @@ const NavMenuStyles = styled.div`
       font-family: 'Quicksand';
       padding: 1rem 2rem;
       font-size: 2rem;
-      color: var(--purple-1);
+      color: var(--blue-1);
       outline: none;
     }
     .active {

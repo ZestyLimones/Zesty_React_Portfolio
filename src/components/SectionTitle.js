@@ -8,7 +8,7 @@ const SectionTitleStyle = styled.div`
     font-size: 2rem;
   }
   h2 {
-    font-family: 'Montserrat Bold';
+    font-family: 'NotoSansDisplay';
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;

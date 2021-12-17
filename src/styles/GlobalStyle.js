@@ -8,9 +8,9 @@ const GlobalStyles = createGlobalStyle`
   }
   :root{
     --dark-bg: #000033;
-    --purple-1: #8c8cd9;
-    --deep-dark: #1f004d;
-    --purple-2: #884dff;
+    --blue-1: #99ffff;
+    --deep-dark: #006680;
+    --blue-2: #009999;
     --white : white;
     --black: black;
   }
@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
   [data-scrollbar] {
     height: 100vh;
     overflow: hidden;
-    background-color: var(--purple-1);
+    background-color: var(--blue-1);
     .scroll-content {
       background-color: var(--dark-bg);
     }
@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
       z-index: 101;
       background: var(--deep-dark);
       .scrollbar-thumb-y {
-        background: var(--purple-1);
+        background: var(--blue-1);
       }
     }
   }
