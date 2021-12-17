@@ -22,14 +22,6 @@ const FooterStyles = styled.div`
     font-size: 3.5rem;
     margin-bottom: 1rem;
   }
-  .copyright {
-    background-color: var(--dark-bg);
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 5rem;
-    .para {
-      margin-left: 0;
-    }
   }
   @media only screen and (max-width: 768px) {
     .container {
@@ -41,13 +33,6 @@ const FooterStyles = styled.div`
     }
     .footer__col1 .para {
       max-width: 100%;
-    }
-    .copyright {
-      .container {
-        div {
-          margin-top: 0;
-        }
-      }
     }
   }
 `;
@@ -127,11 +112,6 @@ export default function Footer() {
               },
             ]}
           />
-        </div>
-      </div>
-      <div className="copyright">
-        <div className="container">
-          <PText>© 2021 - Zesty Limones</PText>
         </div>
       </div>
     </FooterStyles>
