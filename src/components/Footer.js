@@ -98,6 +98,14 @@ export default function Footer() {
                 title: 'micheal@zestylimones.com',
                 path: 'mailto:micheal@zestylimones.com',
               },
+              {
+                title: '(720)432-6360',
+                path: 'tel:+17204326360',
+              },
+              {
+                title: 'Denver, CO',
+                path: 'http://google.com/maps',
+              },
             ]}
           />
         </div>

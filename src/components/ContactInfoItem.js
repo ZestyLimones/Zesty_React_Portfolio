@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdPlace } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import styled from 'styled-components';
 import PText from './PText';
 
@@ -14,11 +14,19 @@ const ContactItemStyles = styled.div`
   .icon {
     color: var(--white);
     background-color: var(--gray-2);
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  svg {
+    width: 3.5rem;
   }
 `;
 
 export default function ContactInfoItem({
-  icon = <MdPlace />,
+  icon = <MdEmail />,
   text = 'this is info',
 }) {
   return (
