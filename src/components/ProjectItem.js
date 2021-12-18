@@ -39,17 +39,22 @@ export default function ProjectItem({
   img = projectImg,
   title = 'Project Name',
   desc = 'here is a description for this specific project.',
+  link = 'https://github.com/ZestyLimones',
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
+      <Link
+        to={{ pathname: link }}
+        target="_blank"
+        className="projectItem__img"
+      >
         <img src={img} alt="fototo" />
       </Link>
       <div className="projectItem__info">
-        <Link to="#">
+        <Link to={{ pathname: link }} target="_blank">
           <h3 className="projectItem__title">{title}</h3>
+          <p className="projectItem__desc">{desc}</p>
         </Link>
-        <p className="projectItem__desc">{desc}</p>
       </div>
     </ProjectItemStyles>
   );

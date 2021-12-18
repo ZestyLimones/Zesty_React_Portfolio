@@ -110,7 +110,11 @@ export default function About() {
             </div>
             <Button
               btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1mUW2HWf5_6fNPka-4Cz8WoVEJf93_Q7B/view?usp=sharing"
+              btnLink={{
+                pathname:
+                  'https://drive.google.com/file/d/1mUW2HWf5_6fNPka-4Cz8WoVEJf93_Q7B/view?usp=sharing',
+              }}
+              target="_blank"
             />
           </div>
           <div className="right">
