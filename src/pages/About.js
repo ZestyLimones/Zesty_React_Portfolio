@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/mike.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -55,6 +54,15 @@ const AboutPageStyles = styled.div`
     text-transform: uppercase;
     text-shadow: 1px 1px var(--white);
   }
+  .resume {
+    font-size: 2.2rem;
+    background-color: var(--blue-1);
+    padding: 0.7em 2em;
+    border: 2px solid var(--blue-1);
+    border-radius: 8px;
+    box-shadow: 2px 2px var(--white);
+    color: var(--black);
+  }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
@@ -69,6 +77,9 @@ const AboutPageStyles = styled.div`
     }
     .about__info__heading {
       font-size: 3rem;
+    }
+    .resume {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -108,31 +119,20 @@ export default function About() {
                 effectively collaborating with my team.
               </PText>
             </div>
-            <Button
-              btnText="Download CV"
-              btnLink={{
-                pathname:
-                  'https://drive.google.com/file/d/1mUW2HWf5_6fNPka-4Cz8WoVEJf93_Q7B/view?usp=sharing',
-              }}
+            <a
+              className="resume"
+              href="https://drive.google.com/file/d/1mUW2HWf5_6fNPka-4Cz8WoVEJf93_Q7B/view?usp=sharing"
               target="_blank"
-            />
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
           </div>
           <div className="right">
             <img src={AboutImg} alt="Me" />
           </div>
         </div>
         <div className="about__info__items">
-          <div className="about__info__item">
-            <h1 className="about__info__heading">Education</h1>
-            <AboutInfoItem
-              title="School"
-              items={['University of Denver Bootcamps, Denver CO']}
-            />
-            <AboutInfoItem
-              title="School"
-              items={['University of Denver Bootcamps, Denver CO']}
-            />
-          </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My Skills</h1>
 
@@ -147,6 +147,13 @@ export default function About() {
             <AboutInfoItem
               title="Tools"
               items={['GitHub/Git', 'Microsoft Office Suites', 'Heroku']}
+            />
+          </div>
+          <div className="about__info__item">
+            <h1 className="about__info__heading">Education</h1>
+            <AboutInfoItem
+              title="School"
+              items={['University of Denver Bootcamps, Denver CO']}
             />
           </div>
         </div>
