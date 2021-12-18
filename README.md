@@ -23,7 +23,7 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 ## Deployed Site
 
-https://zesty-react-portfolio.netlify.app
+https://zestylimones.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
