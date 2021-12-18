@@ -46,7 +46,10 @@ export default function ContactForm() {
 
   return (
     <div>
-      <ContactFormStyles>
+      <ContactFormStyles
+        action="https://formsubmit.co/85f970d45dabe2c7870520a43705f1bd"
+        method="POST"
+      >
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -77,6 +80,7 @@ export default function ContactForm() {
             <textarea
               type="text"
               id="message"
+              name="message"
               message="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
