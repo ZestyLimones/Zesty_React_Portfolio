@@ -17,7 +17,7 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 ## Visual Example
 
-![main page of my portfolio](./assets/images/)
+![main page of my portfolio](./src/assets/images/portfolio-screenshot.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
