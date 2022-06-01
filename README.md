@@ -1,6 +1,7 @@
 # Zesty React Portfolio
 
 <div id="top"></div>
+
 ## Description
 
 This is my current portfolio created with React. I wanted to challenge myself by using more components and pages.
