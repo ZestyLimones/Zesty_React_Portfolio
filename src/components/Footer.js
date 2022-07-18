@@ -89,7 +89,7 @@ export default function Footer() {
                 path: 'tel:+17204326360',
               },
               {
-                title: 'Denver, CO',
+                title: 'Chicago, IL',
                 path: 'http://google.com/maps',
               },
             ]}

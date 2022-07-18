@@ -63,7 +63,7 @@ export default function ContactSection() {
               icon={<MdEmail />}
               text="micheal@zestylimones.com"
             />
-            <ContactInfoItem icon={<MdPlace />} text="Denver, CO" />
+            <ContactInfoItem icon={<MdPlace />} text="Chicago, IL" />
           </div>
           <div className="right">
             <ContactForm />
