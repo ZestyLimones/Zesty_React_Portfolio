@@ -207,15 +207,6 @@ export default function HeroSection() {
                     FB
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/psychocyclist00/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
