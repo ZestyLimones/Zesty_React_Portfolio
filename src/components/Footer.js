@@ -105,11 +105,7 @@ export default function Footer() {
               },
               {
                 title: 'LinkedIn',
-                path: 'https://github.com/ZestyLimones',
-              },
-              {
-                title: 'Instagram',
-                path: 'https://github.com/ZestyLimones',
+                path: 'https://www.linkedin.com/in/micheal-limones/',
               },
             ]}
           />
