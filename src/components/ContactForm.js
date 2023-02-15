@@ -81,7 +81,6 @@ export default function ContactForm() {
               type="text"
               id="message"
               name="message"
-              message="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

@@ -85,11 +85,11 @@ export default function Footer() {
                 path: 'mailto:micheal@zestylimones.com',
               },
               {
-                title: '(720)432-6360',
-                path: 'tel:+17204326360',
+                title: '(872) 221-4659',
+                path: 'tel:+18722214659',
               },
               {
-                title: 'Denver, CO',
+                title: 'Chicago, IL',
                 path: 'http://google.com/maps',
               },
             ]}
