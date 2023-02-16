@@ -23,7 +23,7 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 ## Deployed Site
 
-https://zestylimones.com
+https://main.d3ipd1ttm79if7.amplifyapp.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -40,7 +40,7 @@ https://zestylimones.com
 
 If you have any questions you can reach me via:
 
-- email: micheal@zestylimones.com
+- email: michlimones@gmail.com
 - LinkedIn: https://www.linkedin.com/in/micheal-limones/
 
 <p align="right">(<a href="#top">back to top</a>)</p>

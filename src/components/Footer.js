@@ -81,8 +81,8 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: 'micheal@zestylimones.com',
-                path: 'mailto:micheal@zestylimones.com',
+                title: 'michlimones@gmail.com',
+                path: 'mailto:michlimones@gmail.com',
               },
               {
                 title: '(872) 221-4659',
@@ -105,11 +105,11 @@ export default function Footer() {
               },
               {
                 title: 'LinkedIn',
-                path: 'https://github.com/ZestyLimones',
+                path: 'https://www.linkedin.com/in/micheal-limones/',
               },
               {
-                title: 'Instagram',
-                path: 'https://github.com/ZestyLimones',
+                title: 'Facebook',
+                path: 'https://www.facebook.com/zestylimones',
               },
             ]}
           />

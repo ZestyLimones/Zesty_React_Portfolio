@@ -83,12 +83,13 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            A background in Benefits Administration and Human Resources gives me
-            a customer-focused mentality and the ability to keep a project
-            aligned with the needs of the end-user. I now apply this process to
-            my work as a developer by researching challenging issues that affect
-            usability and accessibility and effectively collaborating with my
-            team.
+            Experienced web developer with a background in Benefits
+            Administration and Human Resources. Skilled in front-end
+            technologies such as HTML, CSS, JavaScript, jQuery, and React, as
+            well as back-end technologies like Node, Express, JSON, GraphQL, and
+            NoSQL. Strong understanding of Agile methodology and proficient in
+            tools like JIRA, AWS, and Git/GitHub/GitLab. Proven ability to work
+            well in a team and effectively communicate with clients.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />
