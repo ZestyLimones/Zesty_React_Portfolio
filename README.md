@@ -32,7 +32,6 @@ https://zestylimones.com
 - React
 - Styled Components
 - Swiper.js
-- Smooth Scroll
 - React Icons
 
 <p align="right">(<a href="#top">back to top</a>)</p>
