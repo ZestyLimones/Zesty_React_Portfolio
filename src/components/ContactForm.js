@@ -47,7 +47,7 @@ export default function ContactForm() {
   return (
     <div>
       <ContactFormStyles
-        action="https://formsubmit.co/85f970d45dabe2c7870520a43705f1bd"
+        action="https://formsubmit.co/michlimones@gmail.com"
         method="POST"
       >
         <div className="form-group">
