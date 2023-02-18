@@ -10,7 +10,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Friends of Toto',
-    desc: 'Friends of Toto is a website designed to bring pets together! Here you can create an account for your pet, upload photos, and intereact with other pet users. The application allows you to follower users and you are able to add comments to posts.',
+    desc: 'Friends of Toto is a website designed to bring pets together! Here you can create an account for your pet, upload photos, and interact with other pet users. The application allows you to follower users and you are able to add comments to posts.',
     img: FoTotoImg,
     link: 'https://friendsoftoto.herokuapp.com/',
   },
@@ -19,7 +19,7 @@ const projects = [
     name: 'Ouroboros',
     desc: 'A mental health app to track daily progress creating intrinsic goals for our user. Our app sets up a loop reward system creating daily patterns.',
     img: OuroborosImg,
-    link: 'https://ouroboros-ml-jf-ni.herokuapp.com/',
+    link: 'https://ouroboros.herokuapp.com/',
   },
   {
     id: uuidv4(),
