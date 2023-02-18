@@ -121,7 +121,7 @@ export default function About() {
             </div>
             <a
               className="resume"
-              href="https://drive.google.com/file/d/1mUW2HWf5_6fNPka-4Cz8WoVEJf93_Q7B/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_PlszD-MpRt_q8fVDmU0HCfmqQcsDiaj/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -138,15 +138,15 @@ export default function About() {
 
             <AboutInfoItem
               title="FrontEnd"
-              items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+              items={['HTML', 'CSS', 'JavaScript', 'jQuery', 'REACT']}
             />
             <AboutInfoItem
               title="BackEnd"
-              items={['Node', 'Express', 'MongoDB']}
+              items={['Node', 'Express', 'NoSQL', 'Java', 'MongoDB']}
             />
             <AboutInfoItem
               title="Tools"
-              items={['GitHub/Git', 'Microsoft Office Suites', 'Heroku']}
+              items={['JIRA', 'Git', 'GitLab', 'GitHub', 'AWS', 'Heroku']}
             />
           </div>
           <div className="about__info__item">
@@ -154,6 +154,10 @@ export default function About() {
             <AboutInfoItem
               title="School"
               items={['University of Denver Bootcamps, Denver CO']}
+            />
+            <AboutInfoItem
+              title="Certifications"
+              items={['AWS Developer Associate', 'Full Stack Web Development']}
             />
           </div>
         </div>
