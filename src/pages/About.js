@@ -93,15 +93,15 @@ export default function About() {
             <p className="about__subheading">
               Hi, I'm <span>Micheal Limones</span>
             </p>
-            <h2 className="about__heading">Web Developer</h2>
+            <h2 className="about__heading">Software Engineer</h2>
             <div className="about__info">
               <PText>
-                Full Stack web developer skilled in HTML5, CSS3, JavaScript,
-                React.js, APIs, Node.js, and GitHub. Thrives on the challenge of
-                learning new technologies and the satisfaction of solving
-                difficult problems with creative solutions. Received a Full
-                Stack Web Developer certificate from the University of Denver
-                Bootcamps. I continue to perfect my skills and expand my
+                Experienced Software Engineer skilled in HTML5, CSS3,
+                JavaScript, React.js, APIs, Node.js, and GitHub. Thrives on the
+                challenge of learning new technologies and the satisfaction of
+                solving difficult problems with creative solutions. Received a
+                Full Stack Web Developer certificate from the University of
+                Denver Bootcamps. I continue to perfect my skills and expand my
                 knowledge.
                 <br />
                 <br />
@@ -121,7 +121,7 @@ export default function About() {
             </div>
             <a
               className="resume"
-              href="https://drive.google.com/file/d/1Sun1NUTRS92iTnAUXZtUGbyMaX06z1gl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tKyksptzgdzLeV_mbuzbz_xfxPV45smN/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

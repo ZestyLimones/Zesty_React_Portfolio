@@ -164,7 +164,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              Full Stack web developer skilled in HTML5, CSS3, JavaScript,
+              Full Stack Software Engineer skilled in HTML5, CSS3, JavaScript,
               React.js, APIs, Node.js, and GitHub. Thrives on the challenge of
               learning new technologies and the satisfaction of solving
               difficult problems with creative solutions. Received a Full Stack
@@ -200,7 +200,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/zestylimones"
+                    href="https://www.facebook.com/limones00"
                     target="_blank"
                     rel="noreferrer"
                   >

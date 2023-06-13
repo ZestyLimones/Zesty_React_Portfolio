@@ -109,7 +109,7 @@ export default function Footer() {
               },
               {
                 title: 'Facebook',
-                path: 'https://www.facebook.com/zestylimones',
+                path: 'https://www.facebook.com/limones00',
               },
             ]}
           />
