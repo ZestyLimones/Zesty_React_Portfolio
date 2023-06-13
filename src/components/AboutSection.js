@@ -83,7 +83,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Experienced Web Developer with a background in Benefits
+            Experienced Software Engineer with a background in Benefits
             Administration and Human Resources. Skilled in front-end
             technologies such as HTML, CSS, JavaScript, jQuery, and React, as
             well as back-end technologies like Node, Express, JSON, GraphQL, and

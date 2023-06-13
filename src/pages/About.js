@@ -100,8 +100,8 @@ export default function About() {
                 JavaScript, React.js, APIs, Node.js, and GitHub. Thrives on the
                 challenge of learning new technologies and the satisfaction of
                 solving difficult problems with creative solutions. Received a
-                Full Stack Web Developer certificate from the University of
-                Denver Bootcamps. I continue to perfect my skills and expand my
+                Full Stack coding certificate from the University of Denver
+                Bootcamps. I continue to perfect my skills and expand my
                 knowledge.
                 <br />
                 <br />
