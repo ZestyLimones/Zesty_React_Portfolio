@@ -85,10 +85,6 @@ export default function Footer() {
                 path: 'mailto:michlimones@gmail.com',
               },
               {
-                title: '(872) 221-4659',
-                path: 'tel:+18722214659',
-              },
-              {
                 title: 'Chicago, IL',
                 path: 'http://google.com/maps',
               },
