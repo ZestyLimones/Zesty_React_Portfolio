@@ -164,14 +164,16 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              Full Stack Software Engineer skilled in HTML5, CSS3, JavaScript,
-              React.js, APIs, Node.js, and GitHub. Thrives on the challenge of
-              learning new technologies and the satisfaction of solving
-              difficult problems with creative solutions. Received a Full Stack
-              Web Developer certificate from the University of Denver Bootcamps.
-              I continue to perfect my skills and expand my knowledge.
+              Proficient in a spectrum of web development technologies,
+              including HTML, CSS, JavaScript, React, Node.js, and backend
+              technologies such as Express, JSON, GraphQL, and NoSQL.
+              Well-versed in Agile methodologies and adept with essential
+              software development tools. Demonstrates a proven ability to
+              collaborate effectively, leverage strong analytical skills, and
+              contribute substantially to architectural design. Eager to apply
+              analytical expertise to develop innovative software solutions.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="View My Projects" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">

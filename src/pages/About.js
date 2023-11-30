@@ -93,30 +93,32 @@ export default function About() {
             <p className="about__subheading">
               Hi, I'm <span>Micheal Limones</span>
             </p>
-            <h2 className="about__heading">Software Engineer</h2>
+            <h2 className="about__heading">Software Developer</h2>
             <div className="about__info">
               <PText>
-                Experienced Software Engineer skilled in HTML5, CSS3,
-                JavaScript, React.js, APIs, Node.js, and GitHub. Thrives on the
-                challenge of learning new technologies and the satisfaction of
-                solving difficult problems with creative solutions. Received a
-                Full Stack coding certificate from the University of Denver
-                Bootcamps. I continue to perfect my skills and expand my
-                knowledge.
+                As a passionate and adaptable professional transitioning to a
+                Software Developer role, I bring a robust foundation in
+                technical analytics and proficiency across a spectrum of web
+                development technologies. Skilled in HTML, CSS, JavaScript
+                (ES6), React, Node.js, and backend technologies including
+                Express, JSON, GraphQL, and NoSQL, I am well-versed in Agile
+                methodologies and essential software development tools.
                 <br />
                 <br />
-                Recently completed a group project working with two other
-                individuals to create a social media application for Pets! This
-                project was a lot of fun to put together. A user can upload
-                pictures to their profile and can interact with other users by
-                following them or adding comments to their photos.
+                In my current role as an Application Analyst at Capgemini, I
+                spearhead technical analysis and debugging efforts,
+                collaborating with cross-functional teams to devise effective
+                resolutions. I received the Standout Performer Award in 2023 for
+                identifying root causes of system issues, saving the client over
+                $15 million.
                 <br />
-                <br />A background in Benefits Administration and Human
-                Resources gives me a customer-focused mentality and the ability
-                to keep a project aligned with the needs of the end-user. I now
-                apply this process to my work as a developer by researching
-                challenging issues that affect usability and accessibility and
-                effectively collaborating with my team.
+                <br />
+                My proactive approach extends to my role as a Full Stack
+                Teaching Assistant at edX, where I assist the course instructor
+                in mentoring students on front-end and back-end technologies.
+                Through in-depth code reviews, I provide constructive feedback
+                to improve coding practices and adhere to industry best
+                practices in software development.
               </PText>
             </div>
             <a
