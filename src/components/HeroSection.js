@@ -200,15 +200,6 @@ export default function HeroSection() {
                     LI
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/limones00"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FB
-                  </a>
-                </li>
               </ul>
             </div>
           </div>

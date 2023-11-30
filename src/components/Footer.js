@@ -5,7 +5,7 @@ import PText from './PText';
 
 const FooterStyles = styled.div`
   background-color: var(--deep-dark);
-  padding-top: 10rem;
+  padding-top: 5rem;
   .container {
     display: flex;
     gap: 3rem;
@@ -102,10 +102,6 @@ export default function Footer() {
               {
                 title: 'LinkedIn',
                 path: 'https://www.linkedin.com/in/micheal-limones/',
-              },
-              {
-                title: 'Facebook',
-                path: 'https://www.facebook.com/limones00',
               },
             ]}
           />
