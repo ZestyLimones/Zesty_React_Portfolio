@@ -87,7 +87,7 @@ export default function AboutSection() {
             heading="Micheal Limones"
           />
           <PText>
-            As a seasoned software developer, I bring a fusion of technical
+            A seasoned software developer that brings a fusion of technical
             prowess and analytical insight to every project. Proficient in a
             diverse range of web development technologies, from HTML and CSS to
             JavaScript, React, Node.js, and backend technologies such as
