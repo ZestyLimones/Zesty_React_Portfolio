@@ -96,13 +96,15 @@ export default function About() {
             <h2 className="about__heading">Software Developer</h2>
             <div className="about__info">
               <PText>
-                As a passionate and adaptable professional transitioning to a
-                Software Developer role, I bring a robust foundation in
-                technical analytics and proficiency across a spectrum of web
-                development technologies. Skilled in HTML, CSS, JavaScript
-                (ES6), React, Node.js, and backend technologies including
-                Express, JSON, GraphQL, and NoSQL, I am well-versed in Agile
-                methodologies and essential software development tools.
+                Experienced software developer with a solid background in
+                technical and application analytics. Proficient across a
+                spectrum of web development technologies, including HTML, CSS,
+                JavaScript, React, Node.js, and backend technologies such as
+                Express, JSON, GraphQL, and NoSQL. My expertise extends to Agile
+                methodologies and essential software development tools. With a
+                proven ability to collaborate effectively and leverage strong
+                analytical skills, I contribute substantially to architectural
+                design.
                 <br />
                 <br />
                 In my current role as an Application Analyst at Capgemini, I

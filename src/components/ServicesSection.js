@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdDesktopMac, MdCode, MdPerson } from 'react-icons/md';
+import { MdCode } from 'react-icons/md';
+import { AiOutlineSolution } from 'react-icons/ai';
+import { FaLaptopCode } from 'react-icons/fa';
+import { TfiThought } from 'react-icons/tfi';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItem from './ServicesSectionItem';
 
@@ -30,19 +33,19 @@ export default function ServicesSection() {
         <SectionTitle heading="Services" subheading="what I can do for you:" />
         <div className="services__allItems">
           <ServicesSectionItem
-            icon={<MdDesktopMac />}
-            title="Web Design"
-            desc="I do UI/UX design to help websites stand out!"
+            icon={<FaLaptopCode />}
+            title="Full-Stack Expertise"
+            desc="Leverage my proficiency in a broad spectrum of web development technologies, encompassing both frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, JSON, GraphQL, NoSQL). Provide end-to-end solutions with a comprehensive understanding of the entire development stack."
           />
           <ServicesSectionItem
-            icon={<MdCode />}
-            title="Web Dev"
-            desc="I create high performaning websites."
+            icon={<TfiThought />}
+            title="Agile Software Development"
+            desc="Drive projects with an Agile mindset, ensuring flexibility, adaptability, and rapid delivery. Well-versed in Agile methodologies, I collaborate seamlessly with cross-functional teams, contribute to iterative development, and prioritize delivering Minimum Viable Products (MVPs) for efficient and effective project outcomes."
           />
           <ServicesSectionItem
-            icon={<MdPerson />}
-            title="Client Support"
-            desc="Great at working with clients to understand their needs."
+            icon={<AiOutlineSolution />}
+            title="Analytical Problem Solving:"
+            desc="Apply strong analytical skills to identify and resolve complex issues in software applications. Recognized for spearheading technical analysis and debugging efforts, I thrive on tackling challenges and have a proven ability to discover root causes of system issues. This analytical approach extends to contributing substantially to architectural design, ensuring robust and scalable solutions."
           />
         </div>
       </div>

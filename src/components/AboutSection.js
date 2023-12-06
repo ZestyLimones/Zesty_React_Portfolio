@@ -83,13 +83,18 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Experienced Software Developer with a background in Benefits
-            Administration and Human Resources. Skilled in front-end
-            technologies such as HTML, CSS, JavaScript, jQuery, and React, as
-            well as back-end technologies like Node, Express, JSON, GraphQL, and
-            NoSQL. Strong understanding of Agile methodology and proficient in
-            tools like JIRA, AWS, Git, and GitLab. Proven ability to work well
-            in a team and effectively communicate with clients.
+            As a seasoned software developer, I bring a fusion of technical
+            prowess and analytical insight to every project. Proficient in a
+            diverse range of web development technologies, from HTML and CSS to
+            JavaScript, React, Node.js, and backend technologies such as
+            Express, JSON, GraphQL, and NoSQL, I navigate the ever-evolving
+            landscape of software development with agility. Well-versed in Agile
+            methodologies and armed with essential tools, I have a proven track
+            record of collaborating effectively, leveraging strong analytical
+            skills, and making substantial contributions to architectural
+            design. I'm passionate about applying my analytical expertise to
+            craft innovative software solutions that not only meet but exceed
+            expectations.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Projects" />
