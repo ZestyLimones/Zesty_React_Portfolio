@@ -35,7 +35,7 @@ const AboutPageStyles = styled.div`
   .about__heading {
     font-size: 3.6rem;
     margin-bottom: 3rem;
-    text-shadow: 1px 1px var(--white);
+    // text-shadow: 1px 1px var(--white);
   }
   .about__info {
     margin-bottom: 4rem;
@@ -52,7 +52,7 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
-    text-shadow: 1px 1px var(--white);
+    // text-shadow: 1px 1px var(--white);
   }
   .resume {
     font-size: 2.2rem;
