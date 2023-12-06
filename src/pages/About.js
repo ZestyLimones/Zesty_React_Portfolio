@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/mike.jpg';
-import HeroImg from '../assets/images/hero_img.jpg';
+import AboutImg from '../assets/images/me.JPEG';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -134,7 +133,7 @@ export default function About() {
             </a>
           </div>
           <div className="right">
-            <img src={HeroImg} alt="Me" />
+            <img src={AboutImg} alt="Me" />
           </div>
         </div>
         <div className="about__info__items">
@@ -174,7 +173,11 @@ export default function About() {
             />
             <AboutInfoItem
               title="Certifications"
-              items={['AWS Developer Associate', 'Full Stack Web Development']}
+              items={[
+                'AI Applications and Prompt Engineering',
+                'AWS Developer Associate',
+                'Full Stack Web Development',
+              ]}
             />
           </div>
         </div>
