@@ -35,7 +35,6 @@ const AboutPageStyles = styled.div`
   .about__heading {
     font-size: 3.6rem;
     margin-bottom: 3rem;
-    // text-shadow: 1px 1px var(--white);
   }
   .about__info {
     margin-bottom: 4rem;
@@ -52,7 +51,6 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
-    // text-shadow: 1px 1px var(--white);
   }
   .resume {
     font-size: 2.2rem;
@@ -60,7 +58,6 @@ const AboutPageStyles = styled.div`
     padding: 0.7em 2em;
     border: 2px solid var(--blue-1);
     border-radius: 8px;
-    box-shadow: 2px 2px var(--white);
     color: var(--black);
   }
   @media only screen and (max-width: 768px) {
