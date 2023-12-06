@@ -125,7 +125,7 @@ export default function About() {
             </div>
             <a
               className="resume"
-              href="https://drive.google.com/file/d/1tKyksptzgdzLeV_mbuzbz_xfxPV45smN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1I6EuGKinpzStuN8yJTh-wulhyTSQyxlK/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
