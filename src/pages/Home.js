@@ -8,7 +8,7 @@ import ProjectsSection from '../components/ProjectsSection';
 export default function Home() {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />

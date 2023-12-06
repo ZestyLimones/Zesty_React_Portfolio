@@ -17,6 +17,10 @@ const AboutSectionStyles = styled.div`
   .aboutSection__right {
     flex: 1;
   }
+  .aboutSection__right {
+    border: 2px solid var(--blue-1);
+    border-radius: 12px;
+  }
   .section-title {
     text-align: left;
   }
@@ -80,7 +84,7 @@ export default function AboutSection() {
         <div className="aboutSection__left">
           <SectionTitle
             subheading="Let me introduce myself"
-            heading="About Me"
+            heading="Micheal Limones"
           />
           <PText>
             As a seasoned software developer, I bring a fusion of technical

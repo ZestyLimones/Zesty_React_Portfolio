@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/mike.jpg';
+import HeroImg from '../assets/images/hero_img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -133,7 +134,7 @@ export default function About() {
             </a>
           </div>
           <div className="right">
-            <img src={AboutImg} alt="Me" />
+            <img src={HeroImg} alt="Me" />
           </div>
         </div>
         <div className="about__info__items">
@@ -141,16 +142,28 @@ export default function About() {
             <h1 className="about__info__heading">My Skills</h1>
 
             <AboutInfoItem
-              title="FrontEnd"
-              items={['HTML', 'CSS', 'JavaScript', 'jQuery', 'REACT']}
+              title="Programing Languages"
+              items={['HTML', 'CSS', 'JavaScript (ES6)', 'Java']}
             />
             <AboutInfoItem
-              title="BackEnd"
-              items={['Node', 'Express', 'NoSQL', 'Java', 'MongoDB']}
+              title="Web Devlopment"
+              items={[
+                'React',
+                'Node.js',
+                'Express',
+                'JSON',
+                'GraphQL',
+                'NoSQL',
+              ]}
+            />
+
+            <AboutInfoItem
+              title="Methodologies & Practices"
+              items={['Agile', 'Software Support', 'Test Automation', 'DevOps']}
             />
             <AboutInfoItem
-              title="Tools"
-              items={['JIRA', 'Git', 'GitLab', 'GitHub', 'AWS', 'Heroku']}
+              title="Cloud Technologies"
+              items={['Cloud Infrastructure', 'Cloud Development']}
             />
           </div>
           <div className="about__info__item">
