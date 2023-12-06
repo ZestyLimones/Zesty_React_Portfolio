@@ -14,6 +14,7 @@ const AboutItemStyles = styled.div`
   }
   .items {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
     position: absolute;
     left: 40rem;
