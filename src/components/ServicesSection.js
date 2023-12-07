@@ -39,7 +39,7 @@ export default function ServicesSection() {
 
           <ServicesSectionItem
             icon={<AiOutlineSolution />}
-            title="Analytical Problem Solving:"
+            title="Analytical Problem Solving"
             desc="Apply strong analytical skills to identify and resolve complex issues in software applications. Recognized for spearheading technical analysis and debugging efforts, I thrive on tackling challenges and have a proven ability to discover root causes of system issues. This analytical approach extends to contributing substantially to architectural design, ensuring robust and scalable solutions."
           />
           <ServicesSectionItem
