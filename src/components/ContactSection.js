@@ -35,6 +35,7 @@ const ContactSectionStyles = styled.div`
     /* padding-left: 3rem; */
   }
   @media only screen and (max-width: 768px) {
+    padding: 5rem 0;
     .contactSection__wrapper {
       flex-direction: column;
     }

@@ -22,6 +22,7 @@ const ProjectItemStyles = styled.div`
     border-radius: 12px;
   }
   .projectItem__title {
+    text-align: center;
     font-size: 2.2rem;
   }
   .projectItem__desc {
