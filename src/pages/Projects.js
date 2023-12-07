@@ -13,6 +13,9 @@ const ProjectsStyles = styled.div`
     gap: 5rem;
     margin: 1rem;
   }
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 1rem;
+  }
 `;
 
 export default function Projects() {

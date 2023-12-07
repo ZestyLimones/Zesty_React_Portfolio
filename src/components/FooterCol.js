@@ -5,10 +5,10 @@ import styled from 'styled-components';
 const ColStyles = styled.div`
   .heading {
     font-size: 2.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   a {
     font-size: 1.8rem;

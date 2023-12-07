@@ -8,7 +8,7 @@ const SectionTitleStyle = styled.div`
     text-shadow: 1px 1px var(--deep-dark);
   }
   h2 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
   }

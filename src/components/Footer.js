@@ -29,7 +29,7 @@ const FooterStyles = styled.div`
       flex-direction: column;
       gap: 0rem;
       & > div {
-        margin-top: 5rem;
+        margin-top: 2rem;
       }
     }
     .footer__col1 .para {
