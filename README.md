@@ -1,6 +1,7 @@
 # Zesty React Portfolio
 
 <div id="top"></div>
+
 ## Description
 
 This is my current portfolio created with React. I wanted to challenge myself by using more components and pages.
@@ -17,13 +18,13 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 ## Visual Example
 
-![main page of my portfolio](./src/assets/images/portfolio-screenshot.jpg)
+![main page of my portfolio](./src/assets/images/portfolio-image.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Deployed Site
 
-https://main.d3ipd1ttm79if7.amplifyapp.com/
+https://codewithlimones.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
