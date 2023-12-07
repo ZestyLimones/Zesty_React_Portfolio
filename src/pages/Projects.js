@@ -11,7 +11,7 @@ const ProjectsStyles = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5rem;
-    margin-top: 5rem;
+    margin: 2rem;
   }
 `;
 
