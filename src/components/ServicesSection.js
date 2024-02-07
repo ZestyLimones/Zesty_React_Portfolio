@@ -35,18 +35,18 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<FaLaptopCode />}
             title="Full-Stack Expertise"
-            desc="Leverage my proficiency in a broad spectrum of web development technologies, encompassing both frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, JSON, GraphQL, NoSQL). Provide end-to-end solutions with a comprehensive understanding of the entire development stack."
+            desc="Unlock the power of comprehensive web development solutions with my proficiency across the entire stack. From crafting engaging user interfaces using HTML, CSS, and JavaScript to building robust backend systems with Node.js, Express, JSON, GraphQL, and NoSQL databases, I deliver end-to-end excellence in full-stack development."
           />
 
           <ServicesSectionItem
             icon={<AiOutlineSolution />}
             title="Analytical Problem Solving"
-            desc="Apply strong analytical skills to identify and resolve complex issues in software applications. Recognized for spearheading technical analysis and debugging efforts, I thrive on tackling challenges and have a proven ability to discover root causes of system issues. This analytical approach extends to contributing substantially to architectural design, ensuring robust and scalable solutions."
+            desc="Navigate the complexities of software applications with my strong analytical skills. As a recognized problem solver, I specialize in spearheading technical analysis and debugging efforts. My proven ability to identify and address root causes ensures the development of software solutions that stand up to the challenges of real-world applications."
           />
           <ServicesSectionItem
             icon={<TfiThought />}
             title="Agile Software Development"
-            desc="Drive projects with an Agile mindset, ensuring flexibility, adaptability, and rapid delivery. Well-versed in Agile methodologies, I collaborate seamlessly with cross-functional teams, contribute to iterative development, and prioritize delivering Minimum Viable Products (MVPs) for efficient and effective project outcomes."
+            desc="Elevate your project outcomes with my Agile mindset and collaborative approach. From seamlessly working with cross-functional teams to contributing to iterative development, I prioritize the delivery of Minimum Viable Products (MVPs) for efficient and effective project cycles. Drive your projects forward with adaptability, flexibility, and a commitment to Agile methodologies."
           />
         </div>
       </div>

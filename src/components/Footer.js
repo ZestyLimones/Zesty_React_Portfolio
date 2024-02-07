@@ -85,10 +85,7 @@ export default function Footer() {
                 title: 'michlimones@gmail.com',
                 path: 'mailto:michlimones@gmail.com',
               },
-              {
-                title: '(773) 357-7484',
-                path: 'tel:+17733577484',
-              },
+
               {
                 title: 'Chicago, IL',
                 path: 'http://google.com/maps',

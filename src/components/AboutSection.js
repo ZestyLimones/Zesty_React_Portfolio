@@ -88,18 +88,16 @@ export default function AboutSection() {
             heading="Micheal Limones"
           />
           <PText>
-            A seasoned software developer that brings a fusion of technical
-            prowess and analytical insight to every project. Proficient in a
-            diverse range of web development technologies, from HTML and CSS to
-            JavaScript, React, Node.js, and backend technologies such as
-            Express, JSON, GraphQL, and NoSQL, I navigate the ever-evolving
-            landscape of software development with agility. Well-versed in Agile
-            methodologies and armed with essential tools, I have a proven track
-            record of collaborating effectively, leveraging strong analytical
-            skills, and making substantial contributions to architectural
-            design. I'm passionate about applying my analytical expertise to
-            craft innovative software solutions that not only meet but exceed
-            expectations.
+            Full-stack JavaScript Developer specializing in technical analytics
+            and cloud development. Proficient in the complete React stack,
+            including React Native and Node.js. Demonstrates a proven track
+            record in crafting dynamic applications and resolving system issues,
+            resulting in client cost savings exceeding $15 million. Possesses
+            extensive expertise in AWS services, playing a pivotal role in
+            developing scalable solutions. Embraces Agile methodologies,
+            essential tools, and a collaborative approach. Seeking a role that
+            leverages skills to drive innovation and contribute to the
+            excellence of software and cloud development initiatives.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Projects" />

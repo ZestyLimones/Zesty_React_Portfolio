@@ -93,31 +93,49 @@ export default function About() {
             <h2 className="about__heading">Software Developer</h2>
             <div className="about__info">
               <PText>
-                Experienced software developer with a solid background in
-                technical and application analytics. Proficient across a
-                spectrum of web development technologies, including HTML, CSS,
-                JavaScript, React, Node.js, and backend technologies such as
-                Express, JSON, GraphQL, and NoSQL. My expertise extends to Agile
-                methodologies and essential software development tools. With a
-                proven ability to collaborate effectively and leverage strong
-                analytical skills, I contribute substantially to architectural
-                design.
+                🚀 Development Enthusiast:
+                <br />
+                With a strong foundation in technical analytics, I specialize in
+                full-stack development using technologies like React, React
+                Native, Node.js, and more. My recent project, Game Stash, is a
+                testament to my proficiency in mobile app development, featuring
+                seamless video game collection management through AWS DynamoDB.
                 <br />
                 <br />
-                In my current role as an Application Analyst at Capgemini, I
-                spearhead technical analysis and debugging efforts,
-                collaborating with cross-functional teams to devise effective
-                resolutions. I received the Standout Performer Award in 2023 for
-                identifying root causes of system issues, saving the client over
-                $15 million.
+                🌐 Cloud Architect:
+                <br />
+                Experienced in cloud development with AWS services, I thrive at
+                the intersection of software and cloud technologies. Leveraging
+                AWS DynamoDB, AWS AppSync, AWS Amplify, and AWS Lambda in Game
+                Stash demonstrates my commitment to creating synchronized and
+                dynamic cloud-based solutions.
                 <br />
                 <br />
-                My proactive approach extends to my role as a Full Stack
-                Teaching Assistant at edX, where I assist the course instructor
-                in mentoring students on front-end and back-end technologies.
-                Through in-depth code reviews, I provide constructive feedback
-                to improve coding practices and adhere to industry best
-                practices in software development.
+                🤖 Adaptable Problem Solver:
+                <br />
+                Currently serving as an Application Analyst at Capgemini, I
+                spearhead technical analysis, debugging efforts, and contribute
+                to architectural discussions. Recognized for identifying system
+                issues, I've achieved notable client cost savings.
+                <br />
+                <br />
+                👨‍🏫 Educator and Mentor:
+                <br />
+                In my role as a Full Stack Teaching Assistant at edX, I mentor
+                students on front-end and back-end technologies, ensuring their
+                success in the full-stack development program. Conducting
+                in-depth code reviews, I provide constructive feedback to
+                enhance coding applications and adherence to industry best
+                practices.
+                <br />
+                <br />
+                🔗 Let's Connect:
+                <br />
+                I'm passionate about driving innovation and solving complex
+                challenges. If you're looking for a developer with a diverse
+                skill set, adaptability, and a keen interest in cloud
+                technologies, let's connect! Check out my projects, and feel
+                free to reach out for collaboration or networking opportunities.
               </PText>
             </div>
             <a
@@ -139,12 +157,13 @@ export default function About() {
 
             <AboutInfoItem
               title="Programing Languages"
-              items={['HTML', 'CSS', 'JavaScript (ES6)', 'Java']}
+              items={['HTML5', 'CSS3', 'JavaScript (ES6)', 'Java (JDK 19)']}
             />
             <AboutInfoItem
-              title="Web Devlopment"
+              title="Technology Stack"
               items={[
                 'React',
+                'React Native',
                 'Node.js',
                 'Express',
                 'JSON',
@@ -152,14 +171,21 @@ export default function About() {
                 'NoSQL',
               ]}
             />
-
-            <AboutInfoItem
-              title="Methodologies & Practices"
-              items={['Agile', 'Software Support', 'Test Automation', 'DevOps']}
-            />
             <AboutInfoItem
               title="Cloud Technologies"
               items={['Cloud Infrastructure', 'Cloud Development']}
+            />
+            <AboutInfoItem
+              title="Tools and Platforms"
+              items={[
+                'JIRA',
+                'Git (GitLab, GitHub)',
+                'Amazon Web Services (AWS)',
+              ]}
+            />
+            <AboutInfoItem
+              title="Methodologies & Practices"
+              items={['Agile', 'Software Support', 'Test Automation', 'DevOps']}
             />
           </div>
           <div className="about__info__item">

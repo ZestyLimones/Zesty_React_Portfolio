@@ -22,7 +22,10 @@ export default function Projects() {
   return (
     <ProjectsStyles>
       <div className="container">
-        <SectionTitle heading="Projects" subheading="Here are my projects" />
+        <SectionTitle
+          heading="Projects"
+          subheading="Here are my some projects"
+        />
       </div>
       <div className="projects__allItems">
         {ProjectInfo.map((item) => (

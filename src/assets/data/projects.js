@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import GameStashImg from '../images/game-stash-image.jpg';
 import FoTotoImg from '../images/fototo-image.jpg';
 import OuroborosImg from '../images/ouroboros-image.jpg';
 import NoteTakerImg from '../images/note-taker-image.jpg';
@@ -7,6 +8,13 @@ import EmployeeTrackerImg from '../images/employee-tracker-image.jpg';
 import WorkoutTrackerImg from '../images/workout-tracker-image.jpg';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Game Stash',
+    desc: 'Game Stash - Elevate your gaming experience with my latest project, Game Stash, a cutting-edge React Native mobile app designed for seamless video game collection management. This revolutionary app not only enhances organization but also provides an intuitive and user-friendly platform for gaming enthusiasts to manage their collections effortlessly. ',
+    img: GameStashImg,
+    link: 'https://drive.google.com/file/d/1DFmWu4baNEOG9hjY2FdKuNqx9aUJDCkH/view?usp=sharing',
+  },
   {
     id: uuidv4(),
     name: 'Friends of Toto',
