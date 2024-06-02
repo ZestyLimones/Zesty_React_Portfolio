@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import GameStashImg from '../images/game-stash-image.jpg';
+import DavidAdrianHairImg from '../images/davidadrianhair.jpg';
 import FoTotoImg from '../images/fototo-image.jpg';
 import OuroborosImg from '../images/ouroboros-image.jpg';
 import NoteTakerImg from '../images/note-taker-image.jpg';
@@ -14,6 +15,13 @@ const projects = [
     desc: 'Game Stash - Elevate your gaming experience with my latest project, Game Stash, a cutting-edge React Native mobile app designed for seamless video game collection management. This revolutionary app not only enhances organization but also provides an intuitive and user-friendly platform for gaming enthusiasts to manage their collections effortlessly. ',
     img: GameStashImg,
     link: 'https://drive.google.com/file/d/1DFmWu4baNEOG9hjY2FdKuNqx9aUJDCkH/view?usp=sharing',
+  },
+  {
+    id: uuidv4(),
+    name: 'David Adrian Hair',
+    desc: 'Transform your hair care routine with David Adrian Hair – a premium website designed for the modern stylist and client alike. Discover a seamless booking experience and explore a gallery of stunning hairstyles. With personalized recommendations and an intuitive interface, elevate your hair game and embrace your unique style effortlessly.',
+    img: DavidAdrianHairImg,
+    link: 'https://www.davidadrianhair.com',
   },
   {
     id: uuidv4(),
