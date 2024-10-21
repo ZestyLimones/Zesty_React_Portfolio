@@ -90,7 +90,7 @@ export default function About() {
             <p className="about__subheading">
               Hi, I'm <span>Micheal Limones</span>
             </p>
-            <h2 className="about__heading">Software Developer</h2>
+            <h2 className="about__heading">Software Engineer</h2>
             <div className="about__info">
               <PText>
                 🚀 Development Enthusiast:
